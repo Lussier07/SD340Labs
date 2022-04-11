@@ -11,6 +11,12 @@ namespace Lab1DataAnnotations.Models
 
         public Section Section { get; set; }
 
+        public Client? CurrentClient { get; set; }
+        public int? CurrentClientId { get; set; }
+
+        public Client? PreviousClient { get; set; }
+        public int? PreviousClientId { get; set; }
+
         public Room() { }
     }
     public enum Section
